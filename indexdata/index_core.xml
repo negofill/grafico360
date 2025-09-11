@@ -15,7 +15,7 @@
         tour_displayinfo="false"
         tour_displayspots="true"
         tour_displaycontrols="true"
-        tour_language="pt_BR" />
+        tour_language="pt" />
   <krpano tour_gyroscopedevices="true" devices="no-desktop.and.html5" />
   <krpano tour_vrdevices="true" devices="html5" />
   <krpano videos_sounds_path="%FIRSTXML%" devices="html5" />

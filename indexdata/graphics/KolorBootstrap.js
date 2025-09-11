@@ -249,7 +249,7 @@ function eventKrpanoLoaded (isWebVr) {
 	
 	tourLanguage = getKrValue("tour_language","string")
 	if(typeof tourLanguage == "undefined"){
-		tourLanguage = 'pt_BR';
+		tourLanguage = 'pt';
 	}
 	ktools.I18N.getInstance().initLanguage(tourLanguage, crossDomainTargetUrl+'indexdata/index_messages_','.xml');
 	krpanoLoaded = true;
@@ -259,7 +259,8 @@ function eventKrpanoLoaded (isWebVr) {
 	
 	}else{
 	
-	
+	addKolorBox('gallery3');
+
 addKolorArea('floorPlanArea');
 addKolorBox('gallery2');
 addKolorBox('gallery1');
@@ -282,6 +283,7 @@ deleteKolorBox('gallery2');
 
 deleteKolorFloorPlan('floorPlan');
 deleteKolorArea('floorPlanArea');
+deleteKolorBox('gallery3');
 
 }
 

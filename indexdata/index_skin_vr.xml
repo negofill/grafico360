@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<krpano version="1.22.4">
+<krpano version="1.23.1">
+
+    
+  <!-- Spot Style - ponto -->
+
+
+  <style name="Iconponto"
+         url="%FIRSTXML%/spots/arrow_user_defaultpoint01.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconponto"
+         onout="onoutIconponto"
+
+
+         width="32"
+         height="prop"
+         />
+  <action name="onhoverIconponto">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconponto">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
 
 <!-- ********** -->
 <!-- localizacao -->
@@ -11,13 +41,13 @@
 
 <garrows_settings
 	show_floatingarrow_d="true"
-	show_chevrons_d="false"
+	show_chevrons_d="true"
 	show_navpoints_d="false"
 	show_contextmenu_d="true"
 	show_originalhotspots_d="false"
 
 	show_floatingarrow_m="true"
-	show_chevrons_m="false"
+	show_chevrons_m="true"
 	show_navpoints_m="false"
 	show_contextmenu_m="true"
 	show_originalhotspots_m="false"
@@ -35,7 +65,7 @@
 	floatingarrow_atv="25"
 	floatingarrow_alpha="0.5"
 
-	navhotspots_style="_Iconponto"
+	navhotspots_style="Iconponto"
 	navhotspots_style_vertical="IconDefaultPointSpotStyle1"
 
 	startup_delay="0"
@@ -110,15 +140,6 @@
 
 
 
-<!-- ********** -->
-<!-- Logo4_unique -->
-<!-- id : logo4 -->
-<!-- ********** -->
-
-
-
-
-
   <!-- Fullscreen Management -->
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
   <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
@@ -135,6 +156,14 @@
   <action name="enterFullScreenFallback">set(fullscreen,true);</action>
   
   <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
 
   <!-- FLOORPLAN -->
   <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
