@@ -90,14 +90,14 @@
 	keep_view_replace_with="KEEPVIEW"
 
 	chevrons_position="25"
-	chevrons_scatter="0"
-	chevrons_distance="180"
+	chevrons_scatter="35"
+	chevrons_distance="315"
 	floatingarrow_flyaway="true"
 	floatingarrow_autohide="true"
-	floatingarrow_sens="20"
+	floatingarrow_sens="5"
 	floatingarrow_updatedelay="1"
-	floatingarrow_scale_d="10"
-	floatingarrow_scale_m="10"
+	floatingarrow_scale_d="1"
+	floatingarrow_scale_m="5"
 	navpoints_putonground="true"
 	navpoints_atv="25"
 	keyboard_control="false"
@@ -140,6 +140,11 @@
 
 
 
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
   <!-- Fullscreen Management -->
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
   <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
@@ -163,11 +168,6 @@
   <action name="disableGyroscope">
     changeGyroscopeState(false);
   </action>
-
-
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
 
 
 </krpano>

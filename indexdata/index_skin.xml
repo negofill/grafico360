@@ -881,31 +881,31 @@ Version 3.2, tested with PTP 2.5.7 on Linux
 					url="floorplan/play.jpg" 
 					title="project_floor_title"
 					heading="0">
-							<spot name="spotmap111" posX="0.311348796" posY="0.484008521" heading="0" desc="spotmap111_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap111ActionSpotFloorPlan">
+							<spot name="spotmap111" posX="0.311349005" posY="0.484008998" heading="0" desc="spotmap111_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap111ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap112" posX="0.572733641" posY="0.391414136" heading="0" desc="spotmap112_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap112ActionSpotFloorPlan">
+							<spot name="spotmap112" posX="0.572733998" posY="0.391413987" heading="0" desc="spotmap112_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano12" jsClick="spotmap112ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap113" posX="0.829234004" posY="0.499368697" heading="0" desc="spotmap113_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano18" jsClick="spotmap113ActionSpotFloorPlan">
+							<spot name="spotmap113" posX="0.829234004" posY="0.499368995" heading="0" desc="spotmap113_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano18" jsClick="spotmap113ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap114" posX="0.621925533" posY="0.714646459" heading="0" desc="spotmap114_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano16" jsClick="spotmap114ActionSpotFloorPlan">
+							<spot name="spotmap114" posX="0.62192601" posY="0.714645982" heading="0" desc="spotmap114_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano16" jsClick="spotmap114ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap115" posX="0.802178502" posY="0.631313145" heading="0" desc="spotmap115_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano17" jsClick="spotmap115ActionSpotFloorPlan">
+							<spot name="spotmap115" posX="0.802178979" posY="0.631313026" heading="0" desc="spotmap115_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano17" jsClick="spotmap115ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap116" posX="0.397013396" posY="0.531786561" heading="0" desc="spotmap116_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano11" jsClick="spotmap116ActionSpotFloorPlan">
+							<spot name="spotmap116" posX="0.397013009" posY="0.531786978" heading="0" desc="spotmap116_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano11" jsClick="spotmap116ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap117" posX="0.121230043" posY="0.402116388" heading="0" desc="spotmap117_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap117ActionSpotFloorPlan">
+							<spot name="spotmap117" posX="0.121229999" posY="0.402116001" heading="0" desc="spotmap117_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano14" jsClick="spotmap117ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap118" posX="0.497338861" posY="0.621164024" heading="0" desc="spotmap118_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap118ActionSpotFloorPlan">
+							<spot name="spotmap118" posX="0.49733901" posY="0.621164024" heading="0" desc="spotmap118_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap118ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
-							<spot name="spotmap119" posX="0.381342053" posY="0.384955764" heading="0" desc="spotmap119_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap119ActionSpotFloorPlan">
+							<spot name="spotmap119" posX="0.381341994" posY="0.384956002" heading="0" desc="spotmap119_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano13" jsClick="spotmap119ActionSpotFloorPlan">
 								<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 							</spot>
 				</floorplanItem>
@@ -1515,14 +1515,14 @@ floorPlanActivateDefaultSpot();););
 	keep_view_replace_with="KEEPVIEW"
 
 	chevrons_position="25"
-	chevrons_scatter="0"
-	chevrons_distance="180"
+	chevrons_scatter="35"
+	chevrons_distance="315"
 	floatingarrow_flyaway="true"
 	floatingarrow_autohide="true"
-	floatingarrow_sens="20"
+	floatingarrow_sens="5"
 	floatingarrow_updatedelay="1"
-	floatingarrow_scale_d="10"
-	floatingarrow_scale_m="10"
+	floatingarrow_scale_d="1"
+	floatingarrow_scale_m="5"
 	navpoints_putonground="true"
 	navpoints_atv="25"
 	keyboard_control="false"
@@ -1794,6 +1794,11 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 	changetourlanguage="changeLanguage_gallery3();"
 	/>
 
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
   <!-- Fullscreen Management -->
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
   <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
@@ -1810,19 +1815,6 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
   <action name="enterFullScreenFallback">set(fullscreen,true);</action>
   
   <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
-
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
-
-
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
 
 	<!-- WebVR plugin for VR availability tests -->
 
@@ -1851,4 +1843,12 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
+
 </krpano>
