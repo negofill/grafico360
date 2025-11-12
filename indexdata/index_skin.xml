@@ -1557,46 +1557,6 @@ floorPlanActivateDefaultSpot();););
 
 
 <!-- ********** -->
-<!-- Logo3 -->
-<!-- id : logo3 -->
-<!-- ********** -->
-
-
-  <layer align="topleft"
-         x="10"
-         y="-5"
-         zorder="18"
-         name="logo3"
-         keep="true"
-         visible="false"
-         capture="false"
-
-         url="%FIRSTXML%/graphics/logo3/logo_grafico.png" 
-         onclick="
-getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
-"
-
-         width="96"
-         height="prop"
-
-         />
-
-  <events name="logo3events" 
-    onTourStart="showlogo3();"
-    keep="true" />
-
-  <action name="hidelogo3">
-    set(layer[logo3].visible, false);
-  </action>
-  <action name="showlogo3">
-      set(layer[logo3].visible, true);
-  </action>
-
-
-
-
-
-<!-- ********** -->
 <!-- Button int -->
 <!-- id : button4 -->
 <!-- ********** -->
@@ -1607,7 +1567,7 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
          align="topright"
          x="-5"
          y="152"
-         zorder="19"
+         zorder="18"
          visible="false"
          onclick="button4OnClick"
          height="48"
@@ -1703,7 +1663,7 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 		<option name="close_text" value="gallery3close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery3')" type="string" />
-		<option name="zorder" value="20" type="int" />
+		<option name="zorder" value="19" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -1794,11 +1754,6 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 	changetourlanguage="changeLanguage_gallery3();"
 	/>
 
-  <!-- FLOORPLAN -->
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
-
   <!-- Fullscreen Management -->
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
   <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
@@ -1849,6 +1804,11 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
   <action name="disableGyroscope">
     changeGyroscopeState(false);
   </action>
+
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
 
 
 </krpano>
